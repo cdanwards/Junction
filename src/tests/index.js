@@ -5,6 +5,8 @@ import { expect } from 'chai';
 import sinon from 'sinon';
 const { describe, it } = global;
 
-describe('Story', () => {
-  it('should show the info button');
+describe('Test Libraries', () => {
+  it('should load the testing libraries properly', () => {
+    expect(true).to.equal(true);
+  });
 });
